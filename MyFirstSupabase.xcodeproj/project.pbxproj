@@ -18,6 +18,8 @@
 		33D976932B4492A300ACE6E5 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 33D976922B4492A300ACE6E5 /* Realtime */; };
 		33D976952B4492A300ACE6E5 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 33D976942B4492A300ACE6E5 /* Storage */; };
 		33D976972B4492A300ACE6E5 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 33D976962B4492A300ACE6E5 /* Supabase */; };
+		33D976992B44936000ACE6E5 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D976982B44936000ACE6E5 /* Test.swift */; };
+		33D9769B2B4495D000ACE6E5 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9769A2B4495D000ACE6E5 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		33D976732B44853100ACE6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D976762B44853100ACE6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D976782B44853100ACE6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D976982B44936000ACE6E5 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		33D9769A2B4495D000ACE6E5 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			children = (
 				33D9766A2B44853000ACE6E5 /* AppDelegate.swift */,
 				33D9766C2B44853000ACE6E5 /* SceneDelegate.swift */,
+				33D976982B44936000ACE6E5 /* Test.swift */,
+				33D9769A2B4495D000ACE6E5 /* Secret.swift */,
 				33D9766E2B44853000ACE6E5 /* ViewController.swift */,
 				33D976732B44853100ACE6E5 /* Assets.xcassets */,
 				33D976752B44853100ACE6E5 /* LaunchScreen.storyboard */,
@@ -158,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D9766F2B44853000ACE6E5 /* ViewController.swift in Sources */,
+				33D9769B2B4495D000ACE6E5 /* Secret.swift in Sources */,
+				33D976992B44936000ACE6E5 /* Test.swift in Sources */,
 				33D9766B2B44853000ACE6E5 /* AppDelegate.swift in Sources */,
 				33D9766D2B44853000ACE6E5 /* SceneDelegate.swift in Sources */,
 			);
